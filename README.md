@@ -1,13 +1,14 @@
-<h1 align="left">Hey 👋, I'm Ebisa Girma </h1>
 
-<img src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="50%" height="245" align="center" />
+<h1 align="left">Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>, This is Ebisa Girma </h1>
+<div align ="center">
+<img src="https://media.giphy.com/media/jdPMeyv9rn0hZHh8n9/giphy.gif"  />
 
 ![](https://komarev.com/ghpvc/?username=EbisaGirma21)
-
-<h2 align="center">Frontend Web Developer</h2>
+</div>
+<h2 align="center">Fullstack Web Developer</h2>
 
 ## 🌐 About me:
-<p> I’m a Frontend Web Developer and Software Engineering Student.</p>
+<p> I’m a Fullstack Web Developer and Software Engineering Student.</p>
 
 ## 🌐 Social Media Presence:
 
