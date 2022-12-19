@@ -13,7 +13,7 @@
 ## 🌐 Social Media Presence:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abel-zeleke-3812101b7)
-[![Telegram](https://img.shields.io/badge/Telegram-%230077B5.svg?logo=telegram&logoColor=white)](https://t.me/abel5173)
+[![Telegram](https://img.shields.io/badge/Telegram-%230077B5.svg?logo=telegram&logoColor=white)](https://t.me/@ebaaap)
 # 💻 Tech Stack:
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
