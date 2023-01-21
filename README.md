@@ -5,7 +5,7 @@
 
 ![](https://komarev.com/ghpvc/?username=EbisaGirma21)
 </div>
-<h2 align="center">Fullstack Web Developer</h2>
+<h2 align="center">Front-End Web Developer</h2>
 
 ## 🌐 About me:
 <p> I’m a Fullstack Web Developer and Software Engineering Student.</p>
