@@ -12,7 +12,7 @@
 
 ## 🌐 Social Media Presence:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abel-zeleke-3812101b7)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ebisa-girma-a941b0273/)
 [![Telegram](https://img.shields.io/badge/Telegram-%230077B5.svg?logo=telegram&logoColor=white)]([https://t.me](https://telegram.me/)/@ebaaap)
 # 💻 Tech Stack:
 
