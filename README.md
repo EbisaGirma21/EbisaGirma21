@@ -8,7 +8,7 @@
 <h2 align="center">Full-Satck Web Developer</h2>
 
 ## 🌐 About me:
-<p> I’m a Fullstack Web Developer and Software Engineering Student.</p>
+<p> I’m a Fullstack Web Developer and Software Engineer</p>
 
 ## 🌐 Social Media Presence:
 
