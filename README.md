@@ -47,7 +47,7 @@ location: Addis Ababa, Bole, Ethiopia 🇪🇹
 education: BSc Software Engineering — Wolkite University
 currently:
   - Software Developer   @ Agriveri Service       [ Onsite · May 2025 – Present ]
-  - React/RN Developer   @ Arkwood Entertainment  [ Remote · Jul 2024 – Present ]
+  - React/RN Developer   @ Arkwood Entertainment  [ Remote · Jul 2024 – March 2026 ]
 previously:
   - Fullstack Developer  @ Cross Light Africa     [ Remote · Sep 2022 – Jan 2025 ]
 focus: Scalable web & mobile apps · ERP · CI/CD · System Architecture
