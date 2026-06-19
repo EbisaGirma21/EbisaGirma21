@@ -1,106 +1,77 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&customColorList=0,2,2,5,30&height=200&section=header&text=Ebisa%20Girma%20Garedo&fontSize=44&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=58&descSize=18&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ff5500&height=200&section=header&text=Ebisa%20Girma%20Garedo&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20Web%20%26%20Mobile%20Developer&descAlignY=58&descSize=17&descColor=ffffff" width="100%"/>
 
 </div>
 
-<!-- Spinning circular profile photo using CSS animation via SVG trick with HTML -->
+<!-- Spinning Profile Photo — orange ring matching portfolio -->
 <div align="center">
 
-<a href="https://github.com/EbisaGirma21">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=14&pause=2000&color=58A6FF&center=true&vCenter=true&width=200&height=20&lines=...loading+profile..." alt="" style="display:none"/>
-</a>
+<br/>
 
-<!-- Spinning Profile Photo via CSS keyframe injected into SVG foreignObject won't work on GitHub -->
-<!-- Using the best GitHub-compatible approach: animated border + circular image -->
-
-<picture>
-  <img
-    src="https://avatars.githubusercontent.com/u/100440432?s=400&u=9949b61424170c9537fe70b35775846c09f6e614&v=4"
-    width="130"
-    height="130"
-    style="border-radius:50%;border:3px solid #58a6ff;animation:spin 8s linear infinite;"
-    alt="Ebisa Girma"
-  />
-</picture>
-
-</div>
-
-<!-- SVG spinning ring around profile photo (GitHub-compatible) -->
-<div align="center">
-
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" style="margin-top:-155px;display:block;margin-left:auto;margin-right:auto;">
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="spinGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#bc8cff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#ff5500;stop-opacity:1"/>
+      <stop offset="50%"  style="stop-color:#ff8c00;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#ff5500;stop-opacity:0"/>
     </linearGradient>
+    <clipPath id="circle">
+      <circle cx="90" cy="90" r="76"/>
+    </clipPath>
   </defs>
-  <!-- Spinning arc -->
-  <circle cx="80" cy="80" r="70" fill="none" stroke="url(#spinGrad)" stroke-width="3" stroke-dasharray="220 220" stroke-linecap="round">
-    <animateTransform
-      attributeName="transform"
-      type="rotate"
-      from="0 80 80"
-      to="360 80 80"
-      dur="3s"
-      repeatCount="indefinite"/>
+  <!-- Dark backing ring -->
+  <circle cx="90" cy="90" r="84" fill="#1a1a1a"/>
+  <!-- Static dim border -->
+  <circle cx="90" cy="90" r="84" fill="none" stroke="#333333" stroke-width="2"/>
+  <!-- Spinning orange gradient arc -->
+  <circle cx="90" cy="90" r="84" fill="none" stroke="url(#orangeGrad)" stroke-width="4" stroke-dasharray="265 265" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 90 90" to="360 90 90" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <!-- Circular clip for photo -->
-  <clipPath id="circleClip">
-    <circle cx="80" cy="80" r="65"/>
-  </clipPath>
-  <image href="https://avatars.githubusercontent.com/u/100440432?s=400&u=9949b61424170c9537fe70b35775846c09f6e614&v=4"
-    x="15" y="15" width="130" height="130" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice"/>
+  <!-- Profile photo clipped to circle — using portfolio image -->
+  <image href="https://ebisagirma.netlify.app/images/about/profile1.png"
+    x="14" y="14" width="152" height="152" clip-path="url(#circle)" preserveAspectRatio="xMidYMid slice"/>
 </svg>
 
-</div>
+<br/>
+
+<img src="https://img.shields.io/badge/%E2%97%8F%20Available%20for%20Freelancing-1a1a1a?style=flat-square&labelColor=1a1a1a&color=1a1a1a" />
+
+<br/><br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&pause=1000&color=FF5500&center=true&vCenter=true&random=false&width=700&lines=I'm+Ebisa+Girma%2C+a+fullstack+developer;Crafting+interactive+%26+responsive+experiences;Clean+code.+Smooth+UX.+Real+results.;Full+Stack+Web+%26+Mobile+Developer)](https://git.io/typing-svg)
 
 <br/>
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Full+Stack+Web+%26+Mobile+Developer;MERN+Stack+%7C+Flutter+%7C+Django;ERP+Customization+%7C+DevOps;Building+Scalable+%26+Secure+Apps;Open+to+Collaborate+%F0%9F%9A%80)](https://git.io/typing-svg)
-
-</div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=EbisaGirma21&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS)
-&nbsp;
-![GitHub followers](https://img.shields.io/github/followers/EbisaGirma21?style=for-the-badge&color=bc8cff&labelColor=161b22&label=FOLLOWERS)
-&nbsp;
-![GitHub stars](https://img.shields.io/github/stars/EbisaGirma21?style=for-the-badge&color=f0883e&labelColor=161b22&label=TOTAL+STARS)
+![Profile Views](https://komarev.com/ghpvc/?username=EbisaGirma21&color=ff5500&style=flat-square&label=Profile+Views)
+&nbsp;&nbsp;
+![Years](https://img.shields.io/badge/3%2B_Years-Experience-ff5500?style=flat-square&labelColor=1a1a1a)
+&nbsp;&nbsp;
+![Projects](https://img.shields.io/badge/15%2B_Projects-Done-ff5500?style=flat-square&labelColor=1a1a1a)
+&nbsp;&nbsp;
+![Clients](https://img.shields.io/badge/10%2B_Clients-Happy-ff5500?style=flat-square&labelColor=1a1a1a)
 
 </div>
-
-<br/>
 
 ---
 
-## 👨‍💻 About Me
-
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230" style="border-radius:12px;margin-left:20px;"/>
+## 👋 Hello There!
 
 ```yaml
+# Ebisa Girma Garedo
 name: Ebisa Girma Garedo
-location: Addis Ababa, Bole, Ethiopia
+location: Addis Ababa, Bole, Ethiopia 🇪🇹
 education: BSc Software Engineering — Wolkite University
-current_employers:
-  - Agriveri Service (Onsite Full-time)
-  - Arkwood Entertainment (Remote)
-specialization:
-  - Full Stack Web & Mobile Development
-  - System Architecture
-  - ERP Customization
-  - CI/CD & DevOps
-email: ebisagirma41@gmail.com
-fun_fact: I turn ☕ into scalable, production-ready applications!
+currently:
+  - Software Developer   @ Agriveri Service       [ Onsite · May 2025 – Present ]
+  - React/RN Developer   @ Arkwood Entertainment  [ Remote · Jul 2024 – Present ]
+previously:
+  - Fullstack Developer  @ Cross Light Africa     [ Remote · Sep 2022 – Jan 2025 ]
+focus: Scalable web & mobile apps · ERP · CI/CD · System Architecture
+contact: ebisagirma41@gmail.com
+portfolio: https://ebisagirma.netlify.app
+motto: "Clean code, smooth UX, and real results."
 ```
-
-<br clear="right"/>
 
 ---
 
@@ -108,25 +79,13 @@ fun_fact: I turn ☕ into scalable, production-ready applications!
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/🌍_Portfolio-ebisagirma.netlify.app-ff5500?style=for-the-badge&labelColor=1a1a1a)](https://ebisagirma.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ebisa-girma-509b30292/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ebisagirma41@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/@ebaaap)
-[![GitHub](https://img.shields.io/badge/GitHub-f0f6fc?style=for-the-badge&logo=github&logoColor=0d1117)](https://github.com/EbisaGirma21)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://ebisa.girma)
-
-</div>
-
----
-
-## 💼 Work Experience
-
-<div align="center">
-
-| 🏢 Company                                                                                              | 💼 Role                                 | 📅 Period             |
-| :------------------------------------------------------------------------------------------------------ | :-------------------------------------- | :-------------------- |
-| ![Agriveri](https://img.shields.io/badge/Agriveri_Service-4caf50?style=flat-square&logoColor=white)     | Software Developer — Onsite Full-time   | `May 2025 – Present`  |
-| ![Arkwood](https://img.shields.io/badge/Arkwood_Entertainment-9c27b0?style=flat-square&logoColor=white) | React / React Native Developer — Remote | `Jul 2024 – Present`  |
-| ![CrossLight](https://img.shields.io/badge/Cross_Light_Africa-2196f3?style=flat-square&logoColor=white) | Fullstack Developer — Remote            | `Sep 2022 – Jan 2025` |
+[![GitHub](https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&logo=github&logoColor=0d0d0d)](https://github.com/EbisaGirma21)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/@ebisagirma)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ebisagirma_/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ebisa.girma.58/)
 
 </div>
 
@@ -136,72 +95,76 @@ fun_fact: I turn ☕ into scalable, production-ready applications!
 
 <div align="center">
 
-### 🌐 Languages
+**Languages**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### 🎨 Frontend
+**Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111)
+![Next.js](https://img.shields.io/badge/Next.js-ffffff?style=flat-square&logo=nextdotjs&logoColor=111111)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=111111)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-### ⚙️ Backend
+**Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-ffffff?style=flat-square&logo=express&logoColor=111111)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
-### 🗄️ Databases
+**Databases**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111)
 
-### 🚀 DevOps & Tools
+**DevOps & Tools**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### 🏭 ERP & Other
-
-![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
-![ERPNext](https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
+![ERPNext](https://img.shields.io/badge/ERPNext-0089FF?style=flat-square&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-ff5500?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Works & Projects
+
+> _Meticulously crafted with love and dedication — each one reflecting the passion and soul poured into every detail._
 
 <div align="center">
 
-| 🏷️ Project                       | 📝 Description                                                    | 🛠️ Tech                                    |
-| :------------------------------- | :---------------------------------------------------------------- | :----------------------------------------- |
-| 🛒 **Marketplace Web & Mobile**  | Scalable e-commerce with secure payments & real-time messaging    | `React` `Node.js` `MongoDB` `React Native` |
-| 🎬 **Streaming Platform**        | Movie & music streaming with DRM & personalized recommendations   | `Flutter` `Django` `Redis`                 |
-| 📦 **Omnistock Inventory**       | Multi-warehouse system with batch tracking & automated reordering | `Next.js` `PostgreSQL` `Express`           |
-| ⚙️ **ERP Implementations**       | Customized Odoo & ERPNext for agriculture and non-profits         | `Odoo` `Python` `PostgreSQL`               |
-| 🚌 **School & Transport System** | Administration & bus reservation with real-time tracking          | `React` `Node.js` `MongoDB`                |
-| 🔄 **CI/CD & DevOps Automation** | Pipelines enabling fast and reliable deployments                  | `Docker` `Kubernetes` `Jenkins`            |
+| 🏷️  | Project                                                                               | Description                                                     | Stack                            |
+| :-: | :------------------------------------------------------------------------------------ | :-------------------------------------------------------------- | :------------------------------- |
+| 🌐  | **[Marketplace Web App](https://ebisagirma.netlify.app/single-project/1)**            | Scalable e-commerce with secure payments & real-time messaging  | `React` `Node.js` `MongoDB`      |
+| 📱  | **[Marketplace Mobile App](https://ebisagirma.netlify.app/single-project/2)**         | Full-featured mobile marketplace with real-time updates         | `React Native` `Node.js`         |
+| ⚙️  | **[Odoo ERP — Agriveri](https://ebisagirma.netlify.app/single-project/3)**            | Customized ERP for agriculture management                       | `Odoo` `Python` `PostgreSQL`     |
+| 🔄  | **[CI/CD Pipeline Automation](https://ebisagirma.netlify.app/single-project/4)**      | Fast and reliable deployment pipelines                          | `Docker` `Kubernetes` `Jenkins`  |
+| 📦  | **[Omnistock Inventory](https://ebisagirma.netlify.app/single-project/5)**            | Multi-warehouse system with batch tracking & auto-reordering    | `Next.js` `PostgreSQL` `Express` |
+| 🎬  | **[Movie Streaming — Arkwood](https://ebisagirma.netlify.app/single-project/6)**      | Mobile streaming app with DRM & personalized recommendations    | `Flutter` `Django` `Redis`       |
+| 🏢  | **[ERPNext — Dev for Peace](https://ebisagirma.netlify.app/single-project/7)**        | ERPNext for a non-profit organization                           | `ERPNext` `Python` `PostgreSQL`  |
+| 🎵  | **[Music Streaming — Weedduu](https://ebisagirma.netlify.app/single-project/9)**      | Music streaming mobile application                              | `Flutter` `Django`               |
+| 🏫  | **[School Management System](https://ebisagirma.netlify.app/single-project/10)**      | Administration platform for Wolkite University Community School | `React` `Node.js`                |
+| 🚌  | **[Bus Reservation System](https://ebisagirma.netlify.app/single-project/11)**        | Real-time bus reservation and tracking                          | `React` `Node.js` `MongoDB`      |
+| 🌍  | **[DPO Web Application](https://ebisagirma.netlify.app/single-project/12)**           | Web application for Development for Peace Organization          | `React` `Node.js`                |
+| 🎞️  | **[Movie Streaming Web — Arkwood](https://ebisagirma.netlify.app/single-project/13)** | Full web streaming platform with personalized content           | `Next.js` `Django` `Redis`       |
 
 </div>
 
@@ -210,15 +173,15 @@ fun_fact: I turn ☕ into scalable, production-ready applications!
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=EbisaGirma21&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=EbisaGirma21&theme=github-dark-blue&hide_border=true&ring=58a6ff&fire=f0883e&currStreakLabel=58a6ff&background=0d1117" />
-</div>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=EbisaGirma21&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&title_color=ff5500&icon_color=ff5500&text_color=a0a0a0&bg_color=0d0d0d" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=EbisaGirma21&theme=dark&hide_border=true&ring=ff5500&fire=ff8c00&currStreakLabel=ff5500&background=0d0d0d&sideNums=ffffff&currStreakNum=ffffff&dates=555555&sideLabels=a0a0a0" />
 
 <br/>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EbisaGirma21&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=EbisaGirma21&theme=github-compact&hide_border=true&area=true&area_color=58a6ff&color=58a6ff&line=58a6ff&point=bc8cff&bg_color=0d1117" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EbisaGirma21&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&title_color=ff5500&text_color=a0a0a0&bg_color=0d0d0d" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=EbisaGirma21&theme=github-compact&hide_border=true&area=true&area_color=ff5500&color=ff5500&line=ff5500&point=ff8c00&bg_color=0d0d0d&title_color=ff5500" />
+
 </div>
 
 ---
@@ -227,7 +190,7 @@ fun_fact: I turn ☕ into scalable, production-ready applications!
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=EbisaGirma21&theme=algolia&no-frame=true&no-bg=true&margin-w=6&column=7)
+![](https://github-profile-trophy.vercel.app/?username=EbisaGirma21&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7)
 
 </div>
 
@@ -237,27 +200,35 @@ fun_fact: I turn ☕ into scalable, production-ready applications!
 
 <div align="center">
 
-| 🏅 Certification                                       | 🏛️ Institution                   |
-| :----------------------------------------------------- | :------------------------------- |
-| 🎓 BSc Software Engineering                            | Wolkite University `2019 – 2024` |
-| 🔴 Red Hat System Administration & Java EE Development | Red Hat                          |
-| 🌐 NDG Linux Essentials                                | Cisco Networking Academy         |
-| 🏆 Ethiopian Collegiate Programming Contest (EtCPC)    | Competitive Programming          |
+| 🏅 Certification                                       | 🏛️ Institution           | 📅            |
+| :----------------------------------------------------- | :----------------------- | :------------ |
+| 🎓 BSc Software Engineering                            | Wolkite University       | `2019 – 2024` |
+| 🔴 Red Hat System Administration & Java EE Development | Red Hat                  | —             |
+| 🌐 NDG Linux Essentials                                | Cisco Networking Academy | —             |
+| 🏆 Ethiopian Collegiate Programming Contest (EtCPC)    | Competitive Programming  | —             |
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&customColorList=0,2,2,5,30&height=130&section=footer&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff5500&height=130&section=footer&animation=twinkling" width="100%"/>
 </div>
 
 <div align="center">
 
-⭐ **If you find my work interesting, feel free to star my repositories and connect!**
+**Are you ready to kickstart your project with a touch of magic?**
+
+_Reach out and let's make it happen ✨ — available for full-time, part-time, and freelance opportunities._
 
 <br/>
 
-💬 _Always open to collaborating on exciting projects — let's build something great together!_
+[![Hire Me](https://img.shields.io/badge/Hire%20Me-ff5500?style=for-the-badge&logo=rocket&logoColor=white)](mailto:ebisagirma41@gmail.com)
+&nbsp;
+[![View Portfolio](https://img.shields.io/badge/View%20Portfolio-1a1a1a?style=for-the-badge&logo=firefox&logoColor=ff5500)](https://ebisagirma.netlify.app)
+
+<br/>
+
+⭐ _If you find my work interesting, feel free to star my repos and connect!_
 
 </div>
