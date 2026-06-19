@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ff5500&height=200&section=header&text=Ebisa%20Girma%20Garedo&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20Web%20%26%20Mobile%20Developer&descAlignY=58&descSize=17&descColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ff5500&height=200&section=header" width="100%"/>
+
+<h1>Ebisa Girma Garedo</h1>
+<p>Fullstack Web & Mobile Developer</p>
 
 </div>
 
