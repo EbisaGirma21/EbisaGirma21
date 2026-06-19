@@ -7,34 +7,14 @@
 
 </div>
 
-<!-- Spinning Profile Photo — orange ring matching portfolio -->
+<!-- Profile Photo -->
 <div align="center">
 
 <br/>
 
-<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   style="stop-color:#ff5500;stop-opacity:1"/>
-      <stop offset="50%"  style="stop-color:#ff8c00;stop-opacity:0.9"/>
-      <stop offset="100%" style="stop-color:#ff5500;stop-opacity:0"/>
-    </linearGradient>
-    <clipPath id="circle">
-      <circle cx="90" cy="90" r="76"/>
-    </clipPath>
-  </defs>
-  <!-- Dark backing ring -->
-  <circle cx="90" cy="90" r="84" fill="#1a1a1a"/>
-  <!-- Static dim border -->
-  <circle cx="90" cy="90" r="84" fill="none" stroke="#333333" stroke-width="2"/>
-  <!-- Spinning orange gradient arc -->
-  <circle cx="90" cy="90" r="84" fill="none" stroke="url(#orangeGrad)" stroke-width="4" stroke-dasharray="265 265" stroke-linecap="round">
-    <animateTransform attributeName="transform" type="rotate" from="0 90 90" to="360 90 90" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Profile photo clipped to circle — using portfolio image -->
-  <image href="https://ebisagirma.netlify.app/images/about/profile1.png"
-    x="14" y="14" width="152" height="152" clip-path="url(#circle)" preserveAspectRatio="xMidYMid slice"/>
-</svg>
+<a href="https://github.com/EbisaGirma21">
+  <img src="https://avatars.githubusercontent.com/u/100440432?v=4" width="150" style="border-radius:50%" alt="Ebisa Girma"/>
+</a>
 
 <br/>
 
